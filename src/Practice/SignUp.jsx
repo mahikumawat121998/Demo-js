@@ -20,7 +20,7 @@ const SignUp = () => {
   return (
     <div className='Container'>
         <form action="" className='my-form'>
-        <h2 className='my-h2'>Sign Up</h2>
+        <h2 className='my-h2'>Login</h2>
 
             <div className='login-div'>                        
             <input type="text" name='firstname' placeholder='Enter First Name'  autoComplete='off' onChange={handleChange}/>
