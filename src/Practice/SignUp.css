@@ -1,0 +1,55 @@
+.Container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+
+    background-image: url("https://images.unsplash.com/photo-1488409688217-e6053b1e8f42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80"); 
+    background-color: #cccccc; 
+    
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.login-div{
+    display: flex;
+    gap: 25px;
+    /* max-width: 100%; */
+    width: 100%;
+}
+.my-h2{
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 26px;
+    text-align: center;
+}
+.my-form{
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+    /* max-width: 100%;
+    width: 100%; */
+}
+.my-btn{
+    width: 100%;
+    background-color: purple;
+    padding: 16px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 12px;
+}
